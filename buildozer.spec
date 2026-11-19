@@ -5,7 +5,7 @@ package.domain = org.afad.acil
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 version = 1.0
-requirements = python3==3.11.9,kivy==2.3.0,pyjnius,android
+requirements = python3,kivy,pyjnius,android
 orientation = portrait
 fullscreen = 0
 android.permissions = BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_CONNECT,BLUETOOTH_ADVERTISE,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION,MODIFY_AUDIO_SETTINGS,WAKE_LOCK,POST_NOTIFICATIONS,FOREGROUND_SERVICE
