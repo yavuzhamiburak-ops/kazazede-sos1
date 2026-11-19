@@ -9,11 +9,12 @@ requirements = python3,kivy,pyjnius,android
 orientation = portrait
 fullscreen = 0
 android.permissions = BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_CONNECT,BLUETOOTH_ADVERTISE,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION,MODIFY_AUDIO_SETTINGS,WAKE_LOCK,POST_NOTIFICATIONS,FOREGROUND_SERVICE
-android.api = 33
+android.api = 34
 android.minapi = 21
 android.ndk = 25b
 android.accept_sdk_license = True
 android.archs = arm64-v8a
+p4a.branch = develop
 [buildozer]
 log_level = 2
 warn_on_root = 1
